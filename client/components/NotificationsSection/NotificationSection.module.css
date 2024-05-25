@@ -1,0 +1,13 @@
+.main_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.table_segment {
+    flex-grow: 1; /* Ensure the Segment takes up remaining space */
+    overflow: auto; /* Enable scrolling if content exceeds the height */
+}
+
+.table_container {
+    overflow: auto; /* Enable scrolling if content exceeds the height */
+}

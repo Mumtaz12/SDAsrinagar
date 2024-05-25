@@ -1,0 +1,16 @@
+.main_wrapper {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin: 1rem 0;
+}
+
+.sub_wrapper {
+  width: 85%;
+   /*background-color: teal;*/
+  height: 100%;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}

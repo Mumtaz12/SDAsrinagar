@@ -1,0 +1,16 @@
+.main_wrapper{
+
+}
+
+.image_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.image {
+    margin:.5rem;
+    cursor: pointer;
+}

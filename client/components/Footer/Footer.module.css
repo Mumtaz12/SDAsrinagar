@@ -1,0 +1,54 @@
+/*.main_wrapper {*/
+/*  background: #1b1b1b;*/
+/*}*/
+/*.main_wrapper p {*/
+/*  color: white;*/
+/*  font-size: 1rem;*/
+/*  text-align: center;*/
+/*  padding: 1rem 0;*/
+/*  background-color: #2d2d31;*/
+/*}*/
+
+/*.sub_wrapper {*/
+/*  display: flex;*/
+/*  width: 80%;*/
+/*  justify-content: space-around;*/
+/*  margin: auto auto;*/
+/*}*/
+
+.main_wrapper {
+  background: #1b1b1b;
+}
+
+.main_wrapper p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #2d2d31;
+}
+
+.sub_wrapper {
+  display: flex;
+  flex-direction: column; /* Display items in a column */
+  align-items: center; /* Center items horizontally */
+  width: 100%; /* Take full width of the container */
+  padding: 1rem; /* Add padding to the sides */
+}
+
+.sub_wrapper > div {
+  margin-bottom: 1rem; /* Add vertical spacing between items */
+  width: 100%; /* Take full width of the container */
+}
+
+@media (min-width: 768px) {
+  .sub_wrapper {
+    flex-direction: row; /* Display items in a row */
+    justify-content: space-evenly; /* Add space between items */
+  }
+
+  .sub_wrapper > div {
+    width: calc(33.33% - 1rem); /* Adjust width to fit three columns with spacing between them */
+    margin-bottom: 0; /* Remove vertical spacing between items */
+  }
+}

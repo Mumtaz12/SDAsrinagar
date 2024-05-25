@@ -1,0 +1,29 @@
+.main_wrapper {
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.main_wrapper > h5 {
+  color: white;
+}
+
+.main_wrapper ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 0.2rem;
+}
+
+.main_wrapper ul li {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.main_wrapper ul li a {
+  color: rgb(53, 150, 206);
+  text-decoration: none;
+}
+
+.main_wrapper ul li a:hover {
+ text-decoration: underline;
+
+}

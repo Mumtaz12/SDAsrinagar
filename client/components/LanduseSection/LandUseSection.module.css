@@ -1,0 +1,37 @@
+.main_wrapper {
+  padding-top: 2rem;
+
+  background: #023e8a;
+  padding: 1.5rem;
+}
+
+.sub_wrapper {
+  display: flex;
+  margin: auto auto;
+  margin-top: 2rem;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.map_wrapper {
+  text-align:center;
+}
+
+.map_wrapper > img {
+  text-align: center;
+  margin: auto auto;
+}
+
+.map_wrapper > h3 {
+  text-align: center;
+}
+
+@media (max-width: 1120px) {
+  .sub_wrapper {
+    flex-direction: column;
+  }
+
+  .map_wrapper {
+    margin-top: 3rem;
+  }
+}

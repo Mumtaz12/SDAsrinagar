@@ -1,0 +1,16 @@
+.slide {
+  height: 30rem;
+  position: relative;
+}
+
+.slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1120px) {
+  .slide {
+    height: 20rem;
+  }
+}

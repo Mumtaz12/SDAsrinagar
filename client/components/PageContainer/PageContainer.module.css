@@ -1,0 +1,12 @@
+.main_wrapper {
+  padding: 3rem;
+
+  margin: 0.5rem;
+}
+
+@media (max-width: 1120px) {
+  .main_wrapper {
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+}

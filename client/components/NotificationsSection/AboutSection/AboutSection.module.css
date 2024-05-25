@@ -1,0 +1,15 @@
+.main_wrapper {
+  width: 45%;
+  padding: 2.5rem;
+}
+
+.main_wrapper > p {
+  text-align: justify;
+  line-height: 1.8rem;
+}
+
+@media (max-width: 1120px) {
+  .main_wrapper {
+    width: 100%;
+  }
+}

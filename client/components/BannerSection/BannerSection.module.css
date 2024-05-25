@@ -1,0 +1,44 @@
+.main_wrapper {
+  height: 30rem;
+  background-color: rgb(100, 128, 0);
+  display: flex;
+  position: relative;
+}
+
+.banner {
+  width: 80%;
+  background-color: rgb(62, 152, 255);
+  height: 100%;
+}
+
+.people {
+  width: 25%;
+  background: #023e8a;
+}
+
+@media (max-width: 1120px) {
+  .main_wrapper {
+
+
+    display: flex;
+    width: 100% !important;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .banner {
+    width: 100%;
+  }
+
+  .people {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
